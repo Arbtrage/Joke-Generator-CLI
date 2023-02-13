@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 const init=require('./utils/start');
 const fin=require('./utils/end');
-
+const joke=require('./utils/joke');
 const main=async()=>{
     init();
-    console.log('This is a test joke');
+    await joke();
     fin();
 }
 
