@@ -15,7 +15,7 @@ A CLI application that generates random jokes.
 To install this project run
 
 ```bash
-  npm jokes-generator-cli
+  npm i jokes-generator-cli -g
 ```
 
 ## Usage

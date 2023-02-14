@@ -12,10 +12,12 @@ const app=async()=>{
                 console.log('SetUp:',jokeData.setup);
                 console.log('Delivery:',jokeData.delivery)
             }
+
         })
         .catch((error)=>{
             console.log(error);
         })
+    console.log('');
 }
 
 module.exports=app;
