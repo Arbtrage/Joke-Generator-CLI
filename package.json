@@ -1,8 +1,13 @@
 {
     "name": "jokes-generator-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A CLI application that generates random jokes",
     "main": "index.js",
+    "homepage": "https://github.com/Arbtrage/Joke-Generator-CLI",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Arbtrage/Joke-Generator-CLI.git"
+    },
     "author": {
         "name": "Sayantan Naskar",
         "Github profile": "https://github.com/Arbtrage"
