@@ -1,5 +1,5 @@
 {
-    "name": "jokes-generator",
+    "name": "jokes-generator-cli",
     "version": "1.0.0",
     "description": "A CLI application that generates random jokes",
     "main": "index.js",
@@ -7,6 +7,11 @@
         "name": "Sayantan Naskar",
         "Github profile": "https://github.com/Arbtrage"
     },
+    "files": [
+        "utils/*",
+        "index.js",
+        "package.json"
+    ],
     "bin": {
         "gen-joke": "index.js"
     },
@@ -17,5 +22,12 @@
         "axios": "^1.3.2",
         "cli-table": "^0.3.11",
         "cli-welcome": "^2.2.2"
-    }
+    },
+    "keywords": [
+        "jokes",
+        "jokes-generator",
+        "jokes-generator-cli",
+        "cli"
+    ],
+    "license": "MIT"
 }

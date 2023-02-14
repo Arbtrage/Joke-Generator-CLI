@@ -10,6 +10,13 @@ A CLI application that generates random jokes.
 - Generates any random joke
 - Jokes include content from different flags
 
+## Installation
+
+To install this project run
+
+```bash
+  npm jokes-generator-cli
+```
 
 ## Tech Stack Used: 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
@@ -22,7 +29,7 @@ A CLI application that generates random jokes.
 #### Get a joke
 
 ```http
-  GET https//v2.jokeapi.dev/joke/Any
+  GET v2.jokeapi.dev/joke/Any
 ```
 
 | Parameter | Type     | Description                |
@@ -35,3 +42,6 @@ A CLI application that generates random jokes.
 - Create a better UX
 - Add spinner
 - Take user inputs
+
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE-OF-CONDUCT.md). By participating in this project you agree to abide by its terms.
