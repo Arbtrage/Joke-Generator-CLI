@@ -46,10 +46,9 @@ You need to run the following command in your terminal.
 | `any` | `string` | Generates any joke |
 
 
-## Improvements
+## Improvements to be done
 
 - Create a better UX
-- Add spinner
 - Take user inputs
 
 

@@ -1,22 +1,18 @@
 const axios = require('axios');
+const sp = require('spinnies');
+const display=require('./display');
 
 const app=async()=>{
-    await axios.get('https://v2.jokeapi.dev/joke/Any')
-        .then((response)=>{
-            const jokeData=response.data;
-            const jokeType=jokeData.type;
-            if(jokeType==='single'){
-                console.log('Joke:',jokeData.joke);
-            }
-            else{
-                console.log('SetUp:',jokeData.setup);
-                console.log('Delivery:',jokeData.delivery)
-            }
-
-        })
-        .catch((error)=>{
-            console.log(error);
-        })
+    const spinnies=new sp();
+    try {
+        spinnies.add('spinner-1', { text: 'Getting your joke' });
+        const {data}= await axios.get('https://v2.jokeapi.dev/joke/Any')
+        display(data);
+        spinnies.succeed('spinner-1', { text: 'Success!' });
+    } catch (error) {
+        console.log("Try again after sometime");
+        spinnies.fail('spinner-1', { text: 'Fail :(' });
+    }   
     console.log('');
 }
 
