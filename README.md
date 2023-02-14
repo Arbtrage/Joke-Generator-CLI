@@ -27,15 +27,6 @@ You need to run the following command in your terminal.
 ```
 
 
-## Usage
-
-You need to run the following command in your terminal.
-
-```bash
-  gen-joke
-```
-
-
 ## Tech Stack Used: 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
 
